@@ -12,9 +12,34 @@ public class Main {
             System.out.println("It's positive");
         } else if (positiveOrNegativeOrZero < 0) {
             System.out.println("It's negative");
-        } else {
+        } else if (positiveOrNegativeOrZero == 0){
             System.out.println("It's a zero");
         }
+
+
+String bartender = "wine";
+
+        switch (bartender) {
+            case "cola", "fanta", "water":
+                System.out.println("one coin");
+                break;
+            case "wine", "beer", "alcohol free beer":
+                System.out.println("two coins");
+                break;
+            case "rum", "wiskey", "vodka":
+                System.out.println("three coins");
+                break;
+
+        }
+
+        int input1 = 11;
+        int input2 = 20;
+
+        int result = input1 * input2;
+
+        System.out.println("de som " + input1 + " * " + input2 + " = " + result);
+
+
 
 
     }}
